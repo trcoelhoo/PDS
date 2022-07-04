@@ -1,0 +1,26 @@
+
+protected Calendar():
+	É usado um construtor protegido, ou seja, apenas quem estiver na package poder instanciar o objeto e, para além disso, o construtor não tem nenhum argumento de entrada.
+
+
+protected Calendar(TimeZone zone, Locale aLocale)
+	Tem mais  um método construtor (protected),com 2 argumentos,em que é necessário indiciar um Timezone e um Locale.
+
+No total, existem dois construtores, mas ambos protegidos.
+Logo para instanciar a classe, o utilizador, tem que usar um método que chame um dos construtores, para instanciar pode usar:
+
+ -- public static Calendar getInstance()
+	que chama o create calendar, onde é ,de facto, criado o calendário, pois o createCalendar(TimeZone zone, Locale aLocale) é que chama os construtores, que eram protegidos.
+
+Para instanciar um calendário, podemos usar estes 3 métodos(que usam o createCalendar):
+
+--public static Calendar getInstance(TimeZone zone)
+	
+--public static Calendar getInstance(Locale aLocale)
+	
+--public static Calendar getInstance(TimeZone zone,Locale aLocale)
+                                  
+	Como através do getInstance podemos criar vários tipo de calendários, conclui-se que é usado o Facory Method para a criação de objetos do tipo Calendar.
+
+	  
+	
