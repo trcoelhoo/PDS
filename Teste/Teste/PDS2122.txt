@@ -1,0 +1,53 @@
+C:\Users\TiagoC\Desktop\PDS\teste
+2022/06/22 14:14:21
+
+Question 1) ----------------------------------
+
+--- All Products ---
+Total: 4
+	Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100.0]
+	Van [code=AA22BB, description=Chevrolet Chevy, 2020, points=180.0]
+	Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85.0]
+	Car [code=BB44ZB, description=Ford Mustang, Red, 2021, points=150.0]
+--- Shared Products ---
+Total: 3
+        Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100.0]
+        Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85.0]
+        Car [code=BB44ZB, description=Ford Mustang, Red, 2021, points=150.0]
+        
+--- Shared Products ---
+Total: 1
+        Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85.0]
+        
+--- All Products ---
+
+Question 2 (output example) ----------------------------------
+
+--- All Products ---
+Total: 14
+	Car [code=990001, description=Toyota Avalon, points=100.0]
+	Car [code=990002, description=MAZDA MX-5 Miata, points=100.0]
+	Car [code=990000, description=Ford Maverick, points=120.0]
+	Van [code=980001, description=GMC Safari, points=130.0]
+	Van [code=980002, description=Lancia Voyager, points=120.0]
+	Van [code=970006, description=Alfa Romeo AR6, points=130.0]
+	Van [code=970005, description=Jeep Grand Cherokee, points=150.0]
+	Motorcycle [code=900009, description=BMW R1150R Boxer Naked Roadster Cinza ABS, points=195.0]
+	Motorcycle [code=900010, description=Harley-Davidson Pan America 1250, points=205.0]
+	Motorcycle [code=990001, description=Ducati DesertX, points=185.0]
+	Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100.0]
+	Van [code=AA22BB, description=Chevrolet Chevy, 2020, points=180.0]
+	Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85.0]
+	Car [code=BB44ZB, description=Ford Mustang, Red, 2021, points=150.0]
+
+Question 3) ----------------------------------
+
+--- Shared Products ---
+Total: 2
+        Car [code=ZA11ZB, description=Tesla, Grey, 2021, points=100.0]
+        Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85.0]
+        
+--- Shared Products ---
+Total: 1
+        Motorcycle [code=ZA33ZB, description=Touring, 750, 2022, points=85.0]
+        
