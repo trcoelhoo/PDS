@@ -1,0 +1,1 @@
+a) Padrão Strategy , padrao que tem comportamentos diferentes para cada algoritmo.

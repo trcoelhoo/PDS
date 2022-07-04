@@ -1,0 +1,9 @@
+java.util.AbstractList-> Implementa  a interface List e extende a AbstractCollection, onde por sua vez estas 2 estão ligadas à interface Collection
+E o que acontece na AbstractList, é que possui um template, ou seja, AbstractCollection possui todos os métodos comuns entre as diversas classes que a extendem, AbstractList para criar uma lista que não pode ser alterada, precisa de dar override do size(),e  de get(int) mas os restantes métodos são utilizados os do template logo aqui temos 1 exemplo do padrão, nas subclasses que utilizem depois esta classe tem que dar override do  set(int, E element), add(int, E) e remove(int)
+
+
+java.util.AbstractSet-> Tem que implementar Set e extender AbstractCollection mas neste exemplo ao contrário não precisamos de dar override em nenhum dos métodos, isto é, os do padrão template já estao certos, sendo preciso apenas adicionar algumas funções da interface Set, onde precisamos de adicionar os métodos equals() e hashcode(), mais concretamente que todos os métodos e construtores nas subclasses desta classe devem obedecer às restrições adicionais impostas pela interface Set.
+
+java.io.Writer-> Classe que extende object e que implementa Appendable, Closeable, Flushable
+Não precisa de dar override de nada mas as subclasses que o implementem precisam de dar override de close(), flush e writer(char[] buffer,int off, int len)
+
